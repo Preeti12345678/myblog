@@ -1,0 +1,46 @@
+body{
+  text-align:center;
+    background:linear-gradient(#8422c4 0%, #dda2ec 100%);
+  background-repeat:no-repeat
+}
+h1{
+  text-shadow:2px 2px 2px  #90A4AE;
+  font-size:20px;
+}
+#bio{
+  padding:20px;
+  font-size:18px;
+  text-align:center;
+    font-family: 'Nerko One', cursive;
+}
+img{
+  border-radius:50%;
+  width:100px;
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+}
+.links:hover{
+    background-color:white;
+}
+.links{
+    float:left;
+    color: black;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    font-size: 20px;
+   font-family:fantasy;
+    text-decoration: none;
+}
