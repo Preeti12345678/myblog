@@ -1,38 +1,6 @@
 body{
-    background:linear-gradient(#8422c4 0%, #dda2ec 100%);
-  background-repeat:no-repeat
-}
-h1{
-  text-shadow:2px 2px 2px  #90A4AE;
-  font-size:20px;
-}
-#bio{
-  padding:20px;
-  font-size:18px;
-  text-align:center;
-    font-family: 'Nerko One', cursive;
-}
-#img{
-  border-radius:50%;
-  width:175px;
-    border-radius: 50%;
-}
-#welcome{
-    position: absolute;
-    overflow: hidden;
-    height: 800px;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    opacity: 0.8;
-    width: 100%;
-    height: 100%;
     text-align: center;
-    display: table;
-    z-index: 9;
-    top: -100;
-     font-family: 'Nerko One', cursive;
+    background:pink
     
 }
 .menu{
@@ -43,16 +11,12 @@ h1{
     right: 30px;
     cursor: pointer;
     color: black;
-    position: absolute;
+    position: fixed;
     text-decoration:none;
     z-index: 10;
-    
-}
-.links:hover{
-    background-color:white;
 }
 .links{
-    float:left;
+   float:left;
     color: black;
     padding-right: 9px;
     padding-top: 5px;
@@ -62,25 +26,47 @@ h1{
    font-family:fantasy;
     text-decoration:none;
 }
+.links:hover{
+    background-color:aqua;
+}
+h1{
+    text-shadow: 2px 2px 2px #90A4AE;
+    font-size: 20px;
+}
+#welcome{
+    opacity: 0.8;
+    z-index: 9;
+    font-family: serif;
+    
+}
 html{
     scroll-behavior: smooth;
 }
-.parallax-inner{
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-}
 h2{
-    font-size: 15px;
-}
-#img2{
-    width: 305px;
+    font-size: 15px
 }
 img{
+    width: 250px;
     transition: transform .2s;
-    border: 10px solid #AAAAAA;
+    border: 10px solid;
 }
 img:hover{
-transform: scale(0.9);
+    transform: scale(0.9);
+}
+#contact{
+    background:black;
+    display: block;
+    
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+    
+}
+.contact_1 h3{
+    display:inline;
+    text-decoration: none;
+}
+#contact iframe{
+    width: 100%;
 }
